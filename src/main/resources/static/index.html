@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body>
+    <div class="contaier">
+        <div class="row">
+            <div class="col-md-3 mx-auto card mt-5 p-3">
+                <button id="createMeetBtn" class="btn btn-primary mb-2">Create New Meet</button>
+                <div class="d-flex">
+                    <input type="text" name="meetId" id="meetId" class="form-control" placeholder="Meet Id" />
+                    <button class="btn btn-success ms-2" id="joinBtn">Join</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 mx-auto card mt-2 p-3">
+                <ul id="userList"></ul>
+                <h2>Connected Users</h2>
+                <button id="logoutBtn" class="btn btn-danger">Logout</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="js/app.js"></script>
+
+</html>
